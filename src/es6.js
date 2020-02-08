@@ -1,4 +1,5 @@
 const marks = [20, 30, 40, 6, 70];
+const mythirdvariable = "HEllo";
 
 // const increaseMarks = marks.map(mark, markIndex) => {
 //   console.log(mark, markIndex);
@@ -100,3 +101,23 @@ console.log(one, two, three, otherProps);
 
 console.log({ one: one, two: two, three: three });
 console.log(one, two, three);
+
+/**
+ * Block scope and function scoope
+ */
+
+function userLessFunction() {
+  //funciton scope
+  var myVariable = "Text";
+}
+
+if (true) {
+  var myVariable = "Hello world";
+  //ES6
+  let mysecondvariable = "second variable";
+  const mythirdvariable = "third variable";
+}
+
+console.log(myVariable);
+//console.log(mysecondvariable);
+console.log(mythirdvariable);
