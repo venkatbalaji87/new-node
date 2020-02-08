@@ -2,7 +2,12 @@
  * Property
  * Method
  */
+
 class human {
+  //static method
+  static someMehtod() {
+    console.log("it has nothing to do with this process");
+  }
   constructor(firstName, lastName) {
     this._firstName = firstName;
     this._lastname = lastName;
@@ -33,3 +38,4 @@ const manojBalaji = new human("Manoj", "balaji", "he is good enogh");
 manojBalaji.name = "balaji fromerode";
 console.log(manojBalaji);
 console.log(manojBalaji.name);
+human.someMehtod();
