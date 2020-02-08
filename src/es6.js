@@ -121,3 +121,5 @@ if (true) {
 console.log(myVariable);
 //console.log(mysecondvariable);
 console.log(mythirdvariable);
+
+//class in javascript
