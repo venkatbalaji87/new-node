@@ -85,9 +85,18 @@ console.log(maths, physics, science, tamil, english);
 const myObject = {
   one: 1,
   two: 2,
-  three: 3
+  three: 3,
+  four: 4,
+  five: 5
 };
 
-const { one, two, three } = myObject;
+const { one, two, three, ...otherProps } = myObject;
 
+console.log(one, two, three, otherProps);
+
+/**
+ * Enhanced object literals
+ */
+
+console.log({ one: one, two: two, three: three });
 console.log(one, two, three);
